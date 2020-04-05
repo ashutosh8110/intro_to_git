@@ -16,4 +16,6 @@ int main()
 	int a=9;
 	int b=4;
 	cout<<sum(a,b);
+
+	cout<<"ashutosh is a superstar";
 }
