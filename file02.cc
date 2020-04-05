@@ -11,9 +11,20 @@ int multiply(int c,int d)
 	return c*d;
 }
 
+int subtract(int a,int b)
+{
+	return a-b;
+}
+
+float divide(int a,int b)
+{
+	return float(a)/b;
+}
+
 int main()
 {
 	int a=9;
 	int b=4;
-	cout<<sum(a,b);
+	cout<<divide(a,b);
+
 }
